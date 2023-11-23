@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cakery Website Template Demo</title>
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar"
+          aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navBar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sweets</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Fillings</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Order</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header__banner">
+      <h1 class="banner__title">Rosemary Cakes</h1>
+      <p class="banner__subtitle">Custom cakery in San Francisco</p>
+      <a href="#" class="banner__button">Our story</a>
+    </div>
+  </header>
+
+  <main>
+    <!--My story Block-->
+    <div class="story">
+      <img src="images/mystory.jpg" alt="My photo" class="story__photo">
+      <h2 class="story__title">Rosemary Williams</h2>
+      <h3 class="story__subtitle">Rosemary Cakes Founder and CEO</h3>
+      <p class="story__text">For more than 5 years, Rosemary has been creating sweet masterpieces with simple, organic
+        ingredients and absolute love for desserts. Rosemary Cakes is a soulful place where you can always order your
+        perfect custom dessert for any occasion. </p>
+      <div class="story__media">
+        <a class="story__media-icon" href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+        <a class="story__media-icon" href="https://www.instagram.com/"><img src="images/instagram.png"
+            alt="Instagram"></a>
+        <a class="story__media-icon" href="https://www.youtube.com/"><img src="images/youtube.png" alt="YouTube"></a>
+      </div>
+      <a class="mystory__button" href="#">My story</a>
+    </div>
+    <!--Sweets block-->
+    <section id="sweets" class="sweet">
+      <h2 class="sweet__title">Choose Your Sweets</h2>
+      <div class="sweet__carousel">
+        <button class="card__prev"> &lt; </button>
+        <div class="sweet__card-carousel">
+          <div class="sweet__card-container">
+            <div class="sweet__cards"></div>
+          </div>
+        </div>
+        <button class="card__next"> &gt; </button>
+      </div>
+    </section>
+    <!--Decoration Block-->
+    <div class="decoration">
+      <h2 class="decoration__title">Express Yourself With Custom Decoration</h2>
+      <div class="decoration__block">
+        <div class="decoration__text-block">
+          <h3 class="decoration__subtitle">We make extraordinary sweets with individual design</h3>
+          <p class="decoration__text">Anything you can imagine is possible with Rosemary Cakes. We are ready to
+            implement any of your wishes and create a memorable piece of sweet art. You can order desserts in your
+            corporate style, work with our cake artists on layers, fillers, frosting. Our cakery is delighted to make
+            exclusive cakes taking into account all peculiarities, from the guest of honor to the holiday location.</p>
+          <a href="#" class="decoration__button">Make an order</a>
+        </div>
+        <img src="images/maffin.png" alt="maffin" class="maffin">
+      </div>
+    </div>
+    <!--Following Block-->
+    <div class="follow">
+      <div class="vanila">
+        <h3 class="vanila__title">#Vanilla 16</h3>
+        <img class="vanila__photo" src="images/vanila.jpg" alt="vanila cake">
+      </div>
+      <div class="bossina">
+        <h3 class="bossina__title">#BestBossina</h3>
+        <img class="bossina__photo" src="images/bossina.jpg" alt="bossina cake">
+      </div>
+      <div class="emilijon">
+        <h3 class="emilijon__title">#EmiliAndJon</h3>
+        <img class="emilijon__photo" src="images/emiliajon.jpg" alt="Emili and Jon cake">
+      </div>
+    </div>
+    <div class="follow__down">
+      <div class="down__text">
+        <p class="follow__text">Follow us by</p>
+        <p class="follow__text-red"> #RosemaryCakes </p>
+        <p class="follow__text"> Instagram hashtag for more handcrafted cake inspiration!</p>
+      </div>
+      <div>
+        <a class="follow__button" href="#">
+          <p>See more custom cakes</p>
+        </a>
+      </div>
+    </div>
+    <!--Order-->
+    <div class="order">
+      <h2 class="order__title"> Order now! </h2>
+      <h3 class="order__title-sell"> -10%</h3>
+      <p class="order__text">We have both classic and modern dessert recipes. Choose your favorite fillings and flavors
+        from our wide list and have the sweetest party ever!</p>
+      <a href="#" class="order__button">Order now</a>
+      <div id="countdown" class="countdown">
+        <div class="countdown-number">
+          <span class="days countdown-time"></span>
+          <span class="countdown-text">Days</span>
+        </div>
+        <div class="countdown-number">
+          <span class="hours countdown-time"></span>
+          <span class="countdown-text">Hours</span>
+        </div>
+        <div class="countdown-number">
+          <span class="minutes countdown-time"></span>
+          <span class="countdown-text">Minutes</span>
+        </div>
+        <div class="countdown-number">
+          <span class="seconds countdown-time"></span>
+          <span class="countdown-text">Seconds</span>
+        </div>
+      </div>
+    </div>
+    <!--Filling-->
+    <section id="filling" class="filling">
+      <h2 class="filling__title">Cake Fillings</h2>
+      <div class="filling__blocks">
+        <div class="tenderness">
+          <img class="tenderness__photo" src="images/tenderness.jpg" alt="tenderness">
+          <h3 class="tenderness__title">Vanilla Tenderness</h3>
+          <h4 class="tenderness__price">$20/kg</h4>
+          <p class="tenderness__text">Sweet and mouth-filling vanilla biscuits covered with sour cream, custard cream
+            and delicate nut syrup.</p>
+        </div>
+        <div class="strawberry">
+          <img class="strawberry__photo" src="images/strawberry.png" alt="strawberry summer">
+          <h3 class="strawberry__title">Strawberry Summer</h3>
+          <h4 class="strawberry__price">$25/kg</h4>
+          <p class="strawberry__text">Wet vanilla biscuits with strawberry pieces soaked with strawberry juice, layers
+            are covered with strawberry-basil cheese cream.</p>
+        </div>
+        <div class="pistachio">
+          <img class="pistachio__photo" src="images/pistachio.jpg" alt="pistachio">
+          <h3 class="pistachio__title">Pistachio Queen</h3>
+          <h4 class="pistachio__price">$30/kg</h4>
+          <p class="pistachio__text">Airy biscuits soaked in rum syrup, delicate pistachio and vanilla cream with
+            milk-chocolate sauce.</p>
+        </div>
+      </div>
+      <a class="filling__button" href="#">See more cake filling</a>
+    </section>
+    <!--party-->
+    <div class="party">
+      <div class="party__right"><img class="party__photo" src="images/party.png" alt="weeding cake"></div>
+      <div class="party__left">
+        <h2 class="party__title">Wedding Cake Tasting!</h2>
+        <p class="party__text">Our handcrafted cakes are sweet pieces of art! Order FREE tasting and choose fillings and
+          flavors for gorgeous wedding day!</p>
+        <a class="party__button" href="#">Make an appointment</a>
+      </div>
+    </div>
+    <!--Rosemarycakes Block-->
+    <div class="rosemary">
+      <h2 class="rosemary__title">#Rosemarycakes</h2>
+      <div class="rosemary__instagram">
+        <div class="instagram__tort"><img src="images/rosemarya.png" alt="torten"></div>
+        <div class="instagram__cookies"><img src="images/rosemaryb.png" alt="cookies"></div>
+        <div class="instagram__cake"><img src="images/rosemaryc.png" alt="cake"></div>
+        <div class="instagram__birthday"><img src="images/rosemaryd.png" alt="birthday cake"></div>
+
+      </div>
+      <a class="rosemary__button" href="#">See other reviews</a>
+
+    </div>
+    <!--Form-->
+    <div class="form">
+      <img class="form__macaroon" src="images/macaroon.png" alt="macaroon">
+      <div class="form__right">
+        <h2 class="form__title">Order Fresh Handcrafted Sweets At Rosemary Cakes!</h2>
+        <p class="form__text">Fill out the fields below, and we will contact you soon to take your order!</p>
+        <form class="form__form" action="https://formspree.io/f/xknaoaby" method="post">
+          <input class="form__name" type="text" name="name" placeholder="Name" required>
+          <input class="form__phone" type="text" name="surname" placeholder="Phone number" required>
+          <button type="submit" class="form__button btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            I want a cake!
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Thank You!</h1>
+                </div>
+                <div class="modal-body">
+                  We will contact you shortly.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="form__button btn btn-secondary" data-bs-dismiss="modal">ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </main>
+  <footer id="contacts" class="footer">
+    <img class="footer__logo" src="images/logo.png" alt="logo">
+    <div class="footer__navigation">
+      <a href="#" class="footer__nav">About Us</a>
+      <a href="#sweets" class="footer__nav">Sweets</a>
+      <a href="#filling" class="footer__nav">Fillings</a>
+      <a href="#contacts" class="footer__nav">Contacts</a>
+    </div>
+    <div class="footer__media">
+      <a class="footer__media-icon" href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+      <a class="footer__media-icon" href="https://www.instagram.com/"><img src="images/instagram.png"
+          alt="Instagram"></a>
+      <a class="footer__media-icon" href="https://www.youtube.com/"><img src="images/youtube.png" alt="YouTube"></a>
+    </div>
+    <div class="end">
+      <p class="end__c">© Created by</p>
+      <p class="end__d">All rights Reserved</p>
+    </div>
+  </footer>
+  <script src="js/carousel.js"></script>
+  <script src="js/time.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
