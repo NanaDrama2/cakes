@@ -1,0 +1,88 @@
+.order {
+    margin: -20px 0 0 0;
+    padding: 80px 10px;
+  }
+  
+  .order__title {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 400;
+    color: var(--icon-color);
+  }
+  
+  .order__title-sell {
+    font-size: 19px;
+    text-align: center;
+    font-family: var(--link-font);
+    color: var(--icon-color);
+  }
+  
+  .order__text {
+    font-size: 19px;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    padding: 10px 10px 30px 10px;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: normal;
+  }
+  
+  .order__button {
+    color: var(--text-color);
+    text-align: center;
+    height: 45px;
+    width: 200px;
+    border-width: 2px;
+    border-color: var(--icon-color);
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--button-text);
+    border-radius: 15px 50px 50px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-image-repeat: stretch;
+    display: block;
+    margin: auto;
+  }
+  
+  .order__button:hover {
+    background-color: var(--icon-color);
+    color: white;
+    border-color: var(--icon-color);
+  }
+  
+  .countdown {
+    font-family: sans-serif;
+    color: #000000;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    margin: 30px auto;
+  }
+  
+  .countdown-number {
+    padding: 10px;
+    border-radius: 3px;
+    background: #fff7fd;
+    display: inline-block;
+  }
+  
+  .countdown-time {
+    padding: 15px;
+    border-radius: 3px;
+    background: #fff7fd;
+    display: inline-block;
+  }
+  
+  .countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+  }

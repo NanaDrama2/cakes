@@ -1,0 +1,64 @@
+.party {
+    background-image: url("../images/background.jpeg");
+    padding: 40px 20px 70px 20px;
+}
+
+.party__right {
+    padding: 40px 0;
+}
+
+.party__title {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 44px;
+    padding: 0 5px;
+}
+
+.party__text {
+    margin: 20px 0;
+    font-size: 17px;
+    padding: 0 0 20px 0;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.party__button {
+    color: white;
+    text-align: center;
+    height: 45px;
+    width: 200px;
+    border-width: 2px;
+    background-color: var(--icon-color);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--button-text);
+    border-radius: 15px 50px 50px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-image-repeat: stretch;
+    margin: 0;
+}
+
+.party__button:hover {
+    background-color: var(--animation-button-color);
+    color: white;
+}
+
+@media (min-width: 767px) {
+    .party {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .party__title {
+        margin: 40px 0 0 0;
+    }
+
+    .party__left {
+        padding: 0 20px;
+    }
+}

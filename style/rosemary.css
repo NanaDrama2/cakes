@@ -1,0 +1,48 @@
+.rosemary {
+    margin: 40px 10px;
+}
+
+.rosemary__title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    padding: 15px 5px;
+}
+
+.rosemary__instagram {
+    padding: 40px 0px;
+}
+
+.rosemary__button {
+    display: flex;
+    color: var(--text-color);
+    text-align: center;
+    height: 10%;
+    width: 175px;
+    border-width: 2px;
+    background-color: white;
+    border-color: var(--icon-color);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--button-text);
+    border-radius: 15px 50px 50px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-image-repeat: stretch;
+    margin: 40px auto;
+}
+
+.rosemary__button:hover {
+    background-color: var(--icon-color);
+    border-color: var(--icon-color);
+    color: white;
+}
+
+@media (min-width: 767px) {
+    .rosemary__instagram {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

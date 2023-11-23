@@ -1,0 +1,105 @@
+.form {
+    background-image: url("../images/background.jpeg");
+    padding: 30px 10px;
+}
+
+.form__macaroon {
+    margin: 50px auto;
+}
+
+.form__right {
+    margin: 0 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(211, 209, 209);
+}
+
+.form__title {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.form-line {
+    padding: 10px 0;
+}
+
+.form__text {
+    font-family: var(--text-font);
+    color: var(--text-color);
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.form__name,
+.form__phone {
+    color: var(--title-color);
+    height: 45px;
+    width: 100%;
+    border-width: 2px;
+    background-color: var(--form-color);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: var(--button-text);
+    border-radius: 15px 50px 50px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-image-repeat: stretch;
+    display: block;
+    margin: 20px 0;
+}
+
+.form__button {
+    color: white;
+    text-align: center;
+    height: 45px;
+    width: 100%;
+    border-width: 2px;
+    background-color: var(--icon-color);
+    border-color: var(--icon-color);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--button-text);
+    border-radius: 15px 50px 50px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-image-repeat: stretch;
+    display: block;
+    margin: 30px 0 10px 0;
+}
+
+.form__button:hover {
+    background-color: var(--animation-button-color);
+    border-color: var(--animation-button-color);
+}
+
+.modal-body,
+.modal-title {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.form__button.btn.btn-secondary {
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form__right {
+        margin: 30px 15%;
+    }
+}

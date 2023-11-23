@@ -1,0 +1,94 @@
+.follow,
+.follow__down {
+    background-image: url("../images/background.jpeg");
+    padding: 80px 30px 20px 30px;
+    margin: 0 0 20px 0;
+}
+
+.follow__down {
+    background-image: url("../images/background.jpeg");
+    padding: 80px 30px 20px 30px;
+}
+
+.vanila,
+.bossina,
+.emilijon {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(231, 215, 215);
+    padding: 15px 25px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.vanila__title,
+.bossina__title,
+.emilijon__title {
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-weight: 400;
+    padding: 10px 0 20px 0;
+}
+
+.follow__down {
+    margin: -70px 0 20px 0;
+}
+
+.follow__text {
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+.follow__text-red {
+    color: var(--icon-color);
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.down__text {
+    padding: 0 0 15px 0;
+}
+
+.follow__instagram {
+    width: 12%;
+}
+
+.follow__button {
+    color: white;
+    text-align: center;
+    height: 45px;
+    width: 250px;
+    border-width: 2px;
+    border-color: var(--icon-color);
+    background-color: var(--icon-color);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--button-text);
+    border-radius: 15px 50px 50px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-image-repeat: stretch;
+    display: block;
+    margin: auto;
+}
+
+.follow__button:hover {
+    background-color: var(--animation-button-color);
+    color: white;
+    border-color: var(--animation-button-color);
+}
+
+@media (min-width: 768px) {
+    .follow {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+    }
+}

@@ -1,0 +1,94 @@
+.sweet {
+    background-image: url("../images/background.jpeg");
+    padding: 80px 10px;
+}
+
+.sweet__title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.sweet__card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sweet__cards {
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(231, 215, 215);
+    margin: 30px 10px;
+    max-height: 419px;
+    min-height: 410px;
+    max-width: 290px;
+    min-width: 230px;
+    object-fit: cover;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 25.5px;
+    justify-content: space-between;
+}
+
+.sweet__carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sweet__card-carousel {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card__prev,
+.card__next {
+    color: #c93bb1;
+    background-color: #11ffee00;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+
+}
+
+.sweet__photo {
+    object-fit: cover;
+    height: 80%;
+}
+
+.cards__title {
+    font-family: var(--title-font);
+    color: var(--title-color);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.sweet__button {
+    font-family: var(--link-font);
+    color: var(--button-text-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 15px 0;
+    margin: auto;
+}
+
+.button__sweet {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .sweet__card {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+    }
+}

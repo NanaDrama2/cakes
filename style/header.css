@@ -1,0 +1,94 @@
+.header {
+    background-image: url("../images/background.jpeg");
+    background-repeat: repeat;
+    background-position: bottom;
+    padding: 0 0 50px 0;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    padding: 0;
+    background-image: url("../images/background.jpeg");
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-brand {
+    width: 80%;
+    padding: 0px 0px;
+    margin: 0;
+    background-image: url("../images/background.jpeg");
+}
+
+.navbar-toggler {
+    border-color: #11ffee00;
+}
+
+.navbar-toggler:hover {
+    border-color: #11ffee00;
+}
+
+.container {
+    background-image: url("../images/background.jpeg");
+    padding: 0;
+    margin: 0;
+}
+
+.banner__title {
+    margin: 20% 20px 20px 20px;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.banner__subtitle {
+    font-size: 20px;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    padding: 0 20px;
+    font-weight: 600;
+    margin: 0 0 40px 0;
+    line-height: 26px;
+}
+
+.banner__button {
+    color: white;
+    text-align: center;
+    height: 45px;
+    width: 200px;
+    border-width: 2px;
+    border-color: var(--icon-color);
+    background-color: var(--icon-color);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--button-text);
+    border-radius: 15px 50px 50px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-image-repeat: stretch;
+    margin: 30px 20px 20px 20px;
+}
+
+.banner__button:hover {
+    background-color: var(--icon-color);
+    color: white;
+    border-color: var(--icon-color);
+}
+
+@media (min-width: 768px) {
+    .banner__title {
+        text-align: center;
+    }
+
+    .banner__subtitle {
+        text-align: center;
+    }
+
+    .banner__button {
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+}
